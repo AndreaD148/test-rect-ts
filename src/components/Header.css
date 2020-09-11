@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    padding: 1rem;
+    background-color: #4657ff;
+    text-align: center;
+}
+
+.header__left {
+    display: flex;
+    flex: 0.2;
+    font-size: 2rem;
+}
+
+.app {
+    color: mintcream;
+    font-weight: 800;
+    font-size: 2rem;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.75);
+    margin: 0 auto;
+}
+
+.header__center {
+    display: flex;
+    flex: 0.5;
+    text-align: center;
+}
+
+.buttons {
+    margin: 0 auto;
+}
+
+.myButton {
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.50); 
+    outline: none;
+    transition: 0.5s;
+    font-size: 2rem;
+}
+
+.myButton:hover {
+    transform: scale(1.2)
+}
+
+.header__rigth {
+    flex: 0.3;
+}
+
+.title {
+    color: red;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.75);
+    font-size: 2rem;
+    margin: 0 auto;
+}
